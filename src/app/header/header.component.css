@@ -1,0 +1,25 @@
+header{
+  background-color: #730000;
+  padding: 5px;
+  border-bottom: 1px solid #730000;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.conteiner{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 11vh;
+  align-items: center;
+}
+
+a.logo{
+  font-family: Ubuntu;
+  font-size: 52px;
+  font-weight: bold;
+  padding-left: 3%;
+}

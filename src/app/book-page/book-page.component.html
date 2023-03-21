@@ -1,0 +1,33 @@
+<header class="container-fluid p-0 m-0">
+  <nav class="conteiner">
+    <a class="navbar-brand logo" routerLink="/">{{book.name}}</a>
+  </nav>
+</header>
+<section>
+  <div class="container-fluid d-flex content">
+    <div class="row">
+      <div class="col-lg-auto col-md-auto col-sm-auto">
+        <div class="image">
+          <img [src]="book.imageUrl" [alt]="book.name">
+        </div>
+      </div>
+      <div class="col-lg-7 col-sm-12">
+        <div class="contain">
+          <div class="name">
+            {{book.name}}
+          </div>
+          <div class="description">
+            {{book.description}}
+          </div>
+          <div class="rait">
+            <span>Рейтинг:</span>
+            <star-rating [value]="book.star" [totalstars]="5" checkedcolor="#FFC700" uncheckedcolor="#D9D9D9"
+                         size="32px"
+                         [readonly]="false" class="star"></star-rating> <!--я без понятия как их адаптировать-->
+            <button type="button" class="btn btn-primary" routerLink="/rate/{{book.id}}">Оставить отзыв</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

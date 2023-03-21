@@ -1,0 +1,23 @@
+<header>
+  <nav class="navbar sticky-top navbar-light conteiner">
+    <a class="navbar-brand logo" routerLink="/">На главную</a>
+  </nav>
+</header>
+<div class="container">
+  <h2>Система рейтинга</h2>
+  <table border="1px">
+    <tr>
+      <th class="zag">id</th>
+      <th>Название</th>
+      <th class="zag">Рейтинг</th>
+      <th>Отзыв</th>
+    </tr>
+    <tr *ngFor="let book of books;  let i = index">
+      <td class="text-center">{{ i + 1 }}</td>
+      <td class="text-center">{{ book.name }}</td>
+      <td class="text-center">{{ book.star }}</td>
+      <td class="text-center"></td>
+    </tr>
+  </table>
+</div>
+

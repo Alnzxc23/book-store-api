@@ -1,0 +1,39 @@
+th {
+  min-width: 10vw;
+  text-align: center;
+}
+
+.feedb{
+  min-width: 50vw;
+}
+
+table{
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  min-height: 5vh;
+}
+
+.zag {
+  min-width: 3vw;
+}
+
+.logo {
+  font-size: 52px;
+  color: white;
+  text-decoration: none;
+}
+
+.conteiner {
+  font-weight: 700;
+  font-family: Ubuntu, serif;
+  padding-left: 3%;
+  background-color: #730000;
+  margin: auto;
+  display: flex;
+  height: 11vh;
+  align-items: center;
+  vertical-align: middle;
+}

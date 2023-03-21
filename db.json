@@ -1,0 +1,52 @@
+{
+  "feeedback": [
+    {
+      "description": "fsff",
+      "stars": "",
+      "id": 1
+    },
+    {
+      "description": "Супер книга",
+      "stars": "",
+      "id": 2
+    },
+    {
+      "description": "Супер книга\n",
+      "stars": "",
+      "id": 3
+    },
+    {
+      "description": "Супер книга",
+      "stars": "",
+      "id": 4
+    },
+    {
+      "name": "id",
+      "description": "КЛассная книга",
+      "stars": "",
+      "id": 5
+    },
+    {
+      "name": "Книга эмоций",
+      "description": "Класссная книга",
+      "stars": "",
+      "id": 6
+    },
+    {
+      "name": "Ведьмак",
+      "description": "Вааааау",
+      "stars": "",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
